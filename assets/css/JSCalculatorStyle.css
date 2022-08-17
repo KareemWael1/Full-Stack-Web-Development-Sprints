@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Calibri;
+    font-size: xxx-large;
+    text-decoration: none;
+    overflow-y: clip;
+}
+
+body{
+    width: 500px;
+    margin: 40px;
+    background: #000025;
+}
+
+h1{
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.Input{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.Operand{
+    width: 220px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+
+#result{
+    margin: 40px 0;
+    width: 100%;
+}
